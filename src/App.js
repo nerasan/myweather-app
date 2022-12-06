@@ -2,7 +2,6 @@ import React from 'react';
 
 import Header from './components/common/Header';
 import CityWeatherContainer from './components/CityWeatherContainer';
-import AddCityForm from './components/AddCityForm';
 
 import './App.css';
 

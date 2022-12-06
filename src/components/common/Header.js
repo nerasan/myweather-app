@@ -4,10 +4,13 @@ const Header = (props) => {
 
     return (
         <>
-        <h2>MyWeather App Header</h2>
-        <div className="container text-center">
-            {props.children}
-        </div>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <span className="navbar-brand mb-0 h1" href="#">MyWeather App</span>
+            </nav>
+            
+            <div className="container text-center">
+                {props.children}
+            </div>
         </>
     )
 }
