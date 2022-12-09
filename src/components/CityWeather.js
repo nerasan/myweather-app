@@ -5,8 +5,8 @@ const CityWeather = (props) => {
 
     return (
         <div>
-            <h3>{props.name}</h3>
-            <h2>{props.temperature}</h2>
+            <h4>{props.name}</h4>
+            <h3>{props.temperature}</h3>
             <img src={props.image} width="25px" alt="weather icon" />
             <div>low: {props.lowTemp}</div>
             <div>high: {props.highTemp}</div>

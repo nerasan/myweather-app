@@ -9,10 +9,6 @@ const CityWeatherContainer = (props) => {
 
     return (
         <div>
-            <h1>Overview</h1>
-
-            <AddCityForm />
-
             <div className="row">
                 {cities.map(city => {
                     return (
